@@ -2,9 +2,9 @@
 
 ## How do I install these formulae?
 
-`brew install tobiaswalle/tap/<formula>`
+`brew install tobias-walle/tap/<formula>`
 
-Or `brew tap tobiaswalle/tap` and then `brew install <formula>`.
+Or `brew tap tobias-walle/tap` and then `brew install <formula>`.
 
 ## Documentation
 
