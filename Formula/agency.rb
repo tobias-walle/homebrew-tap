@@ -1,19 +1,19 @@
 class Agency < Formula
   desc "AI Agent Orchestrator in the terminal"
   homepage "https://github.com/tobias-walle/agency"
-  version "1.6.1"
+  version "1.7.0"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/tobias-walle/agency/releases/download/v1.6.1/agency-aarch64-apple-darwin.tar.xz"
-    sha256 "1ebf1659da09e569a450b1e5d7f41cf2f937c79e83db0855852327fd1d100ee9"
+    url "https://github.com/tobias-walle/agency/releases/download/v1.7.0/agency-aarch64-apple-darwin.tar.xz"
+    sha256 "9e3dc3fbd3a9c1a5bc0a2c94dfd200d72fa08624e66f970c81d499133a1dca35"
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/tobias-walle/agency/releases/download/v1.6.1/agency-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "73c5af598742055f9b46e23cefb31b711076026ae649d7f0666d38e75ad8dcb2"
+      url "https://github.com/tobias-walle/agency/releases/download/v1.7.0/agency-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "3eb6c08d880205d05609a94e0b0ab0f9899eab5e0b8654cb554ba18a796db047"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tobias-walle/agency/releases/download/v1.6.1/agency-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "2c84cab0d8284ca0e283391c46b08c7e6cf46f809cdb2762915528b34447d333"
+      url "https://github.com/tobias-walle/agency/releases/download/v1.7.0/agency-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "f84af6d6621f3aa4624d1f6087d55b2efdcee60586f867a8c65d251e98403ca2"
     end
   end
 
